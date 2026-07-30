@@ -1,8 +1,15 @@
 aid: meroxa
 name: Meroxa
-description: 'Meroxa is a company surfaced as a portfolio company of amplify-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: data-analytics. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Meroxa is a low-code, real-time data streaming platform for large-scale data
+  movement. Its Conduit Platform moves data between databases, SaaS applications
+  and streaming systems using change data capture (CDC), 100+ pre-built
+  connectors, and a code-free dashboard, with Meroxa-managed, self-hosted and
+  air-gapped deployment modes. Developers build event-driven data applications
+  with the open Turbine framework (JavaScript, Python, Ruby, Go) and operate
+  them with the `meroxa` CLI. The company is based in San Francisco and is
+  backed by Amplify Partners; it holds an AFWERX SBIR Phase II contract for
+  real-time event streaming with US Space Systems Command.
 url: https://raw.githubusercontent.com/api-evangelist/meroxa/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,30 @@ x-backed-by:
 - amplify-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://meroxa.com/favicon.ico
 tags:
 - Company
 - Data Analytics
+- Data Streaming
+- Real-Time Data
+- Data Pipelines
+- Change Data Capture
+- Developer Tools
+- Data Integration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,50 @@ maintainers:
 common:
 - type: Website
   url: https://meroxa.com
+- type: Documentation
+  url: https://docs.meroxa.com/
+- type: GettingStarted
+  url: https://docs.meroxa.com/getting-started/quickstart/
+- type: Blog
+  url: https://meroxa.com/blog
+- type: BlogRSS
+  url: https://meroxa.com/blog/rss.xml
+- type: GitHubOrganization
+  url: https://github.com/meroxa
+- type: Pricing
+  url: https://meroxa.com/pricing/
+- type: Support
+  url: https://meroxa.com/contact
+- type: TermsOfService
+  url: https://meroxa.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://meroxa.com/privacy-notice/
+- type: Packages
+  url: packages/meroxa-packages.yml
+- type: SDKs
+  url: packages/meroxa-packages.yml
+- type: CLI
+  url: cli/meroxa-cli.yml
+- type: ChangeLog
+  url: changelog/meroxa-changelog.yml
+- type: Lifecycle
+  url: lifecycle/meroxa-lifecycle.yml
+- type: LLMsTxt
+  url: llms/meroxa-llms.txt
+- type: Conformance
+  url: conformance/meroxa-conformance.yml
+- type: Compliance
+  url: security/meroxa-trust-center.yml
+- type: TrustCenter
+  url: security/meroxa-trust-center.yml
+- type: DomainSecurity
+  url: security/meroxa-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/meroxa-vulnerability-disclosure.yml
+- type: Security
+  url: security/meroxa-vulnerability-disclosure.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 9
+  pass: local-v1
