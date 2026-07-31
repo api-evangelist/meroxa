@@ -1,0 +1,50 @@
+generated: '2026-07-20'
+method: searched
+source: npm, PyPI, RubyGems, pkg.go.dev registries + github.com/meroxa
+name: Meroxa Client Libraries & SDKs
+description: >-
+  First-party client libraries for Meroxa. The Turbine data-application
+  framework ships as language SDKs (JavaScript, Python, Ruby) and the Meroxa
+  platform is driven from the `meroxa` command-line tool (Go). All packages are
+  published from the github.com/meroxa organization.
+packages:
+- name: "@meroxa/turbine-js-framework"
+  registry: npm
+  official: true
+  language: JavaScript
+  latest_version: 1.1.2
+  url: https://www.npmjs.com/package/@meroxa/turbine-js-framework
+  install: npm install @meroxa/turbine-js-framework
+  description: >-
+    Turbine data-application framework for JavaScript/TypeScript — build
+    event-driven, real-time server-side data apps.
+- name: turbine-py
+  registry: PyPI
+  official: true
+  language: Python
+  latest_version: 2.1.4
+  url: https://pypi.org/project/turbine-py/
+  install: pip install turbine-py
+  source: https://github.com/meroxa/turbine-py
+  description: Meroxa Turbine data-application framework for Python.
+- name: turbine_rb
+  registry: RubyGems
+  official: true
+  language: Ruby
+  latest_version: 0.2.5
+  url: https://rubygems.org/gems/turbine_rb
+  install: gem install turbine_rb
+  source: https://github.com/meroxa/turbine-core
+  description: Meroxa Turbine data-application framework for Ruby.
+- name: github.com/meroxa/cli
+  registry: pkg.go.dev
+  official: true
+  language: Go
+  latest_version: v1.6.1
+  url: https://pkg.go.dev/github.com/meroxa/cli
+  install: go install github.com/meroxa/cli@latest
+  source: https://github.com/meroxa/cli
+  binary: meroxa
+  description: >-
+    The Meroxa CLI — Go module and `meroxa` binary for interacting with the
+    Meroxa platform (init, run, deploy, monitor data apps).

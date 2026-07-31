@@ -1,0 +1,30 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.meroxa.com/ + https://meroxa.com/
+name: Meroxa API & Product Lifecycle
+description: >-
+  Lifecycle signals for the Meroxa platform gathered from the documentation and
+  marketing site. Meroxa communicates product change through a dated changelog;
+  no formal, published API versioning or deprecation policy (RFC 8594 Sunset /
+  Deprecation headers) was located.
+changelog:
+  url: https://docs.meroxa.com/changelog/
+  scheme: dated
+versioning:
+  policy: null
+  notes: No public API versioning policy document found.
+deprecation:
+  policy: null
+  notes: >-
+    No published deprecation / Sunset policy located. Note the platform was
+    rebuilt in June 2024 around the Conduit Platform (a breaking change from the
+    prior Turbine-centric product); the legacy Meroxa REST API host
+    (api.meroxa.io) no longer resolves.
+status_page:
+  url: https://status.meroxa.io/
+  reachable: false
+  notes: >-
+    Referenced from meroxa.com, but the host did not resolve during probing on
+    2026-07-20 (connection failed). Not wired as a canonical StatusPage pointer.
+sla:
+  published: false

@@ -1,0 +1,30 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.meroxa.com/changelog/
+name: Meroxa Changelog
+url: https://docs.meroxa.com/changelog/
+scheme: dated
+description: >-
+  Meroxa publishes a dated product changelog on the documentation site covering
+  platform, dashboard and Turbine/Conduit updates.
+entries:
+- date: '2024-06-28'
+  title: Sending Conduit Metrics to Datadog
+  highlights: >-
+    Customers can transmit Conduit application metrics to Datadog for monitoring
+    and alerting.
+  breaking: false
+- date: '2024-06-17'
+  title: Introducing the Conduit Platform
+  highlights: >-
+    Platform rebuild centered on Conduit — cellular architecture for improved
+    performance plus a code-free dashboard for building data applications.
+  breaking: true
+- date: '2023-07-19'
+  title: New App Settings Page and Full-Width Layout
+  highlights: Dedicated settings interface for managing applications in the dashboard.
+  breaking: false
+- date: '2023-07-10'
+  title: Inspect Turbine Application Logs
+  highlights: Browser-based application log monitoring and debugging.
+  breaking: false

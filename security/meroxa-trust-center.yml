@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: searched
+source: https://meroxa.com/security/
+name: Meroxa Trust & Compliance
+url: https://meroxa.com/security/
+description: >-
+  Meroxa's security page documents its security program (encryption, access
+  controls, incident response, vendor management) and displays a SOC 2 badge.
+certifications:
+- name: SOC 2
+  status: claimed
+  evidence: SOC 2 badge displayed on https://meroxa.com/security/
+  notes: >-
+    No audit scope, trust-service-criteria detail, or report-access process is
+    published on the page.
+- name: ISO 27001
+  status: not_claimed
+- name: HIPAA
+  status: not_claimed
+- name: PCI DSS
+  status: not_claimed
+security_contact: security@meroxa.com

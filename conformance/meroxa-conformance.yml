@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: searched
+source: https://meroxa.com/security/
+name: Meroxa Standards Conformance
+description: >-
+  Cross-cutting standards conformance for Meroxa, asserted from published
+  compliance claims. No consumer-facing OpenAPI is published, so API-shape
+  conformance (rfc9457, json:api, pagination, idempotency) could not be derived.
+standards:
+- id: soc2
+  conforms: true
+  evidence: SOC 2 badge displayed on https://meroxa.com/security/
+- id: oauth2
+  conforms: false
+  evidence: No public OAuth 2.0 authorization server documented.
+- id: rfc9457
+  conforms: false
+  evidence: No published OpenAPI / problem+json error contract located.

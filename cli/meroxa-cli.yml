@@ -1,0 +1,43 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/meroxa/cli + https://docs.meroxa.com/
+name: Meroxa CLI
+binary: meroxa
+language: Go
+license: Apache-2.0
+repository: https://github.com/meroxa/cli
+releases: https://github.com/meroxa/cli/releases
+docs: https://docs.meroxa.com/
+latest_version: v1.6.1
+description: >-
+  The `meroxa` command-line tool is the primary way to interact with the Meroxa
+  platform outside the web dashboard — initialize, run locally, deploy and
+  monitor Turbine data applications, and manage platform resources. Pre-built
+  binaries are published for macOS (Darwin), Windows and Linux.
+install:
+- method: homebrew
+  command: brew tap meroxa/taps && brew install meroxa
+  source: https://github.com/meroxa/homebrew-taps
+- method: scoop
+  command: scoop install meroxa
+  source: https://github.com/meroxa/scoop-manifests
+- method: go
+  command: go install github.com/meroxa/cli@latest
+- method: binary
+  command: Download from GitHub Releases
+  source: https://github.com/meroxa/cli/releases
+command_groups:
+- name: login
+  description: Authenticate the CLI against the Meroxa platform.
+- name: logout
+  description: Remove locally stored credentials.
+- name: apps
+  description: >-
+    Manage Turbine data applications — init, run (local), deploy, describe,
+    logs, list, remove.
+- name: completion
+  description: Generate shell completion scripts.
+notes: >-
+  Command reference is auto-generated in the repo under docs/cmd/md/meroxa.
+  Meroxa has since rebuilt around the code-free Conduit Platform dashboard; the
+  CLI remains the developer entry point for Turbine apps.

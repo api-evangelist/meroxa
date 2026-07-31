@@ -1,0 +1,39 @@
+# Meroxa
+
+> Meroxa is a low-code, real-time data streaming platform. Its Conduit Platform
+> moves data at scale between databases, SaaS applications and streaming systems
+> using change data capture (CDC), pre-built connectors and a code-free
+> dashboard. Developers build event-driven data applications with the Turbine
+> framework (JavaScript, Python, Ruby, Go) and operate them with the `meroxa`
+> CLI. Deployment modes: Meroxa-managed, self-hosted, and air-gapped.
+
+## Docs
+
+- [Documentation](https://docs.meroxa.com/): Conduit Platform docs — getting started, connectors, applications
+- [Quickstart](https://docs.meroxa.com/getting-started/quickstart/): Build your first real-time data application
+- [Changelog](https://docs.meroxa.com/changelog/): Dated product and platform updates
+- [Connectors](https://meroxa.com/connectors): 100+ pre-built connector plugins (Conduit SDK, gRPC interface)
+
+## Developer
+
+- [GitHub org](https://github.com/meroxa): CLI, Turbine framework, connectors
+- [Meroxa CLI](https://github.com/meroxa/cli): `meroxa` binary (Go) — init, run, deploy, monitor data apps
+- [Turbine JS (npm)](https://www.npmjs.com/package/@meroxa/turbine-js-framework)
+- [Turbine Python (PyPI)](https://pypi.org/project/turbine-py/)
+- [Turbine Ruby (RubyGems)](https://rubygems.org/gems/turbine_rb)
+
+## Company
+
+- [Website](https://meroxa.com)
+- [Blog](https://meroxa.com/blog)
+- [Pricing](https://meroxa.com/pricing/)
+- [Security](https://meroxa.com/security/): SOC 2; security@meroxa.com
+- [Discord](https://discord.com/invite/pN24QPca6b)
+
+## Notes
+
+- No consumer-facing public REST OpenAPI is currently published; the legacy
+  api.meroxa.io REST host no longer resolves. The platform is driven via the
+  dashboard, the `meroxa` CLI, and Turbine SDKs.
+- Connector plugins communicate over a gRPC interface and may be written in any
+  language conforming to the Conduit SDK.
