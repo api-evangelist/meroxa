@@ -9,10 +9,6 @@
       "method": "feed"
     },
     {
-      "source": "https://meroxa.com/blog/rss.xml",
-      "error": "HTTPError"
-    },
-    {
       "source": "https://docs.meroxa.com/getting-started/quickstart/",
       "feed_url": "https://docs.meroxa.com/changelog/rss.xml",
       "title": "",
@@ -21,9 +17,12 @@
     },
     {
       "source": "https://meroxa.com/blog",
-      "error": "HTTPError"
+      "feed_url": "https://meroxa.com/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
     }
   ],
   "post_count": 69,
-  "fetched": "2026-08-15T12:11:08Z"
+  "fetched": "2026-08-22T20:20:02Z"
 }
