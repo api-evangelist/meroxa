@@ -9,6 +9,13 @@
       "method": "feed"
     },
     {
+      "source": "https://meroxa.com/blog/rss.xml",
+      "feed_url": "https://meroxa.com/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://docs.meroxa.com/getting-started/quickstart/",
       "feed_url": "https://docs.meroxa.com/changelog/rss.xml",
       "title": "",
@@ -24,5 +31,5 @@
     }
   ],
   "post_count": 69,
-  "fetched": "2026-08-22T20:20:02Z"
+  "fetched": "2026-08-30T22:33:40Z"
 }
